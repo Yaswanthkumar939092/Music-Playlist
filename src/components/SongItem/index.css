@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.img {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.det {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.d {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.genre {
+  color: #3b82f6;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.duration {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.but {
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 40px;
+  color: white;
+  height: 50px;
+}
